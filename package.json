@@ -1,0 +1,25 @@
+{
+  "name": "tp-aseca-leone-serial-kinderknecht",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NumaLeone/tp-aseca-leone-serial-kinderknecht.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NumaLeone/tp-aseca-leone-serial-kinderknecht/issues"
+  },
+  "homepage": "https://github.com/NumaLeone/tp-aseca-leone-serial-kinderknecht#readme",
+  "devDependencies": {
+    "cypress": "^10.0.0"
+  },
+  "dependencies": {
+    "save-dev": "^0.0.1-security"
+  }
+}
