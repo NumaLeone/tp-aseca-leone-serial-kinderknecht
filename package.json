@@ -20,6 +20,7 @@
     "cypress": "^10.0.0"
   },
   "dependencies": {
-    "save-dev": "^0.0.1-security"
+    "save-dev": "^0.0.1-security",
+    "semver": "^7.3.7"
   }
 }
