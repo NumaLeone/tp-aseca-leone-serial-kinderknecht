@@ -3,14 +3,14 @@ describe("Searchbar Test", function () {
     cy.visit("https://www.amazon.com/");
     cy.wait(4000);
   });
-  xit("Tests the search bar", function () {
+  it("Tests the search bar", function () {
     changeDeliveryAddress();
     cy.wait(1000);
     cy.get('[aria-label="Search"]').type("Macbook pro");
     cy.get("#nav-search-submit-button").click();
     cy.get("span").contains("RESULTS");
   });
-  xit("Tests that the searchbar searches the desired product", () => {
+  it("Tests that the searchbar searches the desired product", () => {
     changeDeliveryAddress();
     cy.wait(1000);
     cy.get('[aria-label="Search"]').type("Kindle Oasis");
@@ -25,7 +25,6 @@ describe("Searchbar Test", function () {
     changeDeliveryAddress();
     cy.wait(4000);
     cy.get("select").select("Alexa Skills", { force: true });
-    // cy.get('[aria-describedby="searchDropdownDescription"]');
     cy.get("#nav-search-submit-button").click();
     cy.get("h2").contains("Alexa features");
     cy.get("div").contains(
