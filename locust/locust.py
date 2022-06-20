@@ -6,12 +6,12 @@ class WebsiteUser(HttpUser):
     wait_time = between(1, 5)
 
     @task
-    def prodyct_url(self):
+    def product_url(self):
         self.client.get(url="/api/product")
 
     @task
     def price_url(self):
-        self.client.get(url="/api/price")
+        self.client.get(url="/api/price/132")
 
     @task
     def brand_url(self):
